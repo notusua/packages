@@ -1,0 +1,15 @@
+Package: nodejs
+Installed-Size: 19968
+Maintainer: a.khristov@notus.com.ua
+Architecture: amd64
+Version: 0.10.6-1
+Provides: node
+Priority: extra
+Section: checkinstall
+Filename: pool/main/n/nodejs/nodejs_0.10.6-1_amd64.deb
+Size: 5426206
+SHA256: c84731a160014bd3bfe48770afc2a627a4d1ea552215952f3fe03559fdce0ee2
+SHA1: a445ce86b67c8cf3e139e00a8d8859c864482bae
+MD5sum: 06be1080dc5a1b6b0d8430ea882ede77
+Description: node.js v0.10.6
+

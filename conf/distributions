@@ -1,0 +1,9 @@
+Description: notus main repo
+Origin: Ubuntu
+Suite: stable
+AlsoAcceptFor: testing
+Codename: precise
+Version: 1.0
+Architectures: amd64
+Components: main
+UDebComponents: main
