@@ -1,38 +1,40 @@
-##### Notus public packages repo
+Notus .deb packages repository
+===
 
-##### Contains packages for ubuntu precise
+### Packages list
 
-## Packages list
+    * node.js (v0.10.6)
 
-##### * node.js - 0.10.6
+### Usage
 
-## Usage
+create file with repository uri
 
-create file `/etc/apt/sources.list.d/notus.list` and add this line into file
+    sudo sh -c 'echo "deb [arch=amd64] http://repo.notus.com.ua/ precise main" > /etc/apt/sources.list.d/notus.list'
+    apt-get update
+    apt-get install -f nodejs
 
-    deb [arch=amd64] http://repo.notus.com.ua/ precise main
-    
-then run `apt-get update` and `apt-get install -f nodejs`
+### Restrictions
 
-## Restrictions
+Now packages available for: 
 
-Now packages available only for precise (12.04) and amd64 arch
+    * Ubuntu 12.04 LTS Precise 
+    * amd64 architecture
 
-## Future plans 
+### How to add packages
 
-Sing packages
+download and compile files:  
 
-## How to add packages
+    download and untar files
+    ./configure
+    make
+    sudo checkinstall
 
-1. download and compile files
-    * download and untar files
-    * ./configure
-    * make
-    * sudo checkinstall
+copy package to repository root
 
-2. copy package to repository root
+add package to repo
 
-3. add package to repo
-    * reprepro export
-    * reprepro createsymlinks
-    * reprepro -C main includedeb precise *.deb
+    reprepro export
+    reprepro createsymlinks
+    reprepro -C main includedeb precise *.deb
+
+
