@@ -1,3 +1,27 @@
+Package: jdk
+Version: 1.7.021-1
+Architecture: amd64
+Maintainer: Andrey Chizh <achizh@notus>
+Installed-Size: 153905
+Priority: extra
+Section: alien
+Filename: pool/main/j/jdk/jdk_1.7.021-1_amd64.deb
+Size: 85213018
+SHA256: 8d374ea2e133e9cb339134a5f22233fbcc246302ea3646620d6fb06c72c99fdd
+SHA1: c3910e3702e6987f8242db28d94f3f9d92af971d
+MD5sum: b088ec771d7a7e2022601194b0fc6b3f
+Description: Java Platform Standard Edition Development Kit
+ The Java Platform Standard Edition Development Kit (JDK) includes both
+ the runtime environment (Java virtual machine, the Java platform classes
+ and supporting files) and development tools (compilers, debuggers,
+ tool libraries and other tools).
+ .
+ The JDK is a development environment for building applications, applets
+ and components that can be deployed with the Java Platform Standard
+ Edition Runtime Environment.
+ .
+ (Converted from a rpm package by alien version 8.86.)
+
 Package: nodejs
 Installed-Size: 19968
 Maintainer: a.khristov@notus.com.ua
