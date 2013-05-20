@@ -4,6 +4,7 @@ Notus .deb packages repository
 ### Packages list
 
     * node.js (v0.10.6)
+    * jdk (1.7.021)
 
 ### Usage
 
