@@ -5,6 +5,7 @@ Notus .deb packages repository
 
     * node.js (v0.10.6)
     * jdk (1.7.021)
+    * sphinxsearch (2.1.1-beta)
 
 ### Usage
 
@@ -13,6 +14,8 @@ create file with repository uri
     sudo sh -c 'echo "deb [arch=amd64] http://repo.notus.com.ua/ precise main" > /etc/apt/sources.list.d/notus.list'
     apt-get update
     apt-get install -f nodejs
+    apt-get install -f jdk
+    apt-get install -f sphinxsearch
 
 ### Restrictions
 
