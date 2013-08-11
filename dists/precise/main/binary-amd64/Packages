@@ -37,3 +37,29 @@ SHA1: a445ce86b67c8cf3e139e00a8d8859c864482bae
 MD5sum: 06be1080dc5a1b6b0d8430ea882ede77
 Description: node.js v0.10.6
 
+Package: sphinxsearch
+Version: 2.1.1-beta-0ubuntu11~precise
+Architecture: amd64
+Maintainer: Sphinx package builds <builds@sphinxsearch.com>
+Installed-Size: 18585
+Depends: libc6 (>= 2.15), libexpat1 (>= 1.95.8), libgcc1 (>= 1:4.1.1), libmysqlclient18 (>= 5.5.13-1), libpq5, libstdc++6 (>= 4.3), zlib1g (>= 1:1.1.4), upstart-job
+Homepage: http://sphinxsearch.com
+Priority: optional
+Section: misc
+Filename: pool/main/s/sphinxsearch/sphinxsearch_2.1.1-beta-0ubuntu11~precise_amd64.deb
+Size: 6801540
+SHA256: a467e5cc4b0ef0a9b06096405258095e634def5513a923294afec699fd6b71e5
+SHA1: c64e26cc6aed93da7758d292a56366054a327483
+MD5sum: 4ce1c851bbee6d6c2d40e1e23daaa2c9
+Description: Fast standalone full-text SQL search engine
+ Sphinx is a standalone full text search engine, meant to provide fast,
+ size-efficient and relevant fulltext search functions to other applications.
+ Sphinx was specially designed to integrate well with SQL databases and
+ scripting languages. Currently built-in data sources support fetching data
+ either via direct connection to MySQL or PostgreSQL, or using XML pipe
+ mechanism (a pipe to indexer in special XML-based format which Sphinx
+ recognizes).
+ .
+ Sphinx is an acronym which is officially decoded as SQL Phrase Index.
+Original-Maintainer: Radu Spineanu <radu@debian.org>
+
